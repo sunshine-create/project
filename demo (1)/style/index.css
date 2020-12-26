@@ -1,0 +1,667 @@
+
+/* banner开始 */
+.banner{
+   position: relative;
+   height: 539px;
+   width: 1920px;
+   left: 50%;
+   margin-left: -960px;
+   overflow: hidden;
+}
+.banner .img {
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-image: url(/images/banner.png);
+    animation: bg 20s cubic-bezier(0.075, 0.82,0.165,1) infinite 5s;
+}
+@keyframes bg {
+    0%{
+        background-image: url(/images/banner.png);
+    }
+    50%{
+        background-image: url(/images/banner2.jpg);
+    }
+    75%{
+        background-image: url(/images/banner3.jpg);
+    }
+    100%{
+        background-image: url(/images/banner4.jpg);
+    }
+}
+/* banner结束 */
+/* coupon开始 */
+.coupon-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1300px;
+    height: 435px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+.coupon-one .first h2{
+      font-size: 46px;
+      margin-top: 50px;
+      margin-bottom: 30px;
+}
+.coupon-one .first p{
+      font-size: 12px;
+      font-weight: bold;
+}
+.coupon-one .second{
+    display: flex;
+}
+.coupon-one .second .money{
+    width: 210px;
+    height: 215px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 40px;
+}
+.coupon-one .second .money p{
+     font-size: 34px;
+}
+.coupon-one .second .money h3 {
+    font-size: 58px;
+}
+.coupon-one .second .money h2{
+     font-size: 63px;
+     font-weight: bold;
+}
+.coupon-one .second .money P a{
+    width: 170px;
+    height: 35px;
+    display: block;
+    border: 2px solid #333;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 35px;
+    letter-spacing: 2px;
+}
+.coupon-one .second .money P a:hover{
+    font-weight: bold;
+}
+.coupon-two{
+    border-radius: 10px;
+    border: 1px solid #333;
+    width: 1300px;
+    height: 196px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+}
+.coupon-two h2{
+    font-size: 42px;
+    color: #fff;
+    margin-left: 30px;
+}
+
+/* coupon结束 */
+/* series开始 */
+.series{
+    width: 1200px;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.series-one{
+   padding: 100px 0 50px;
+}
+.series-one h2{
+    font-size: 45px;
+}
+.series-one p{
+    font-size: 15px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.series-two ul{
+    display: flex;
+    
+}
+.series-two ul li a img{
+    padding-left: 50px;
+}
+/* series结束 */
+/* product开始 */
+.pro-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.pro-head h2{
+    font-size: 45px;
+    color: #eb3939;
+    padding: 30px 0;
+}
+.pro-head p{
+    font-size: 15px;
+    color: #eb3939;
+    font-weight: bold;
+}
+.all-one,
+.all-two{
+    display:flex;
+    justify-content: space-around;  
+    align-items: center;
+    margin-top: 100px;
+}
+.all-one .left, 
+.all-two .left{
+  width: 600px;
+  height: 440px;
+  display: flex;
+ align-items: center;
+  flex-direction: column;
+}
+.all-one .left p,
+.all-two .left p{
+    font-size: 24px;
+}
+.all-one .left h2,
+.all-two .left h2 {
+ font-size: 38px;
+ margin: 50px 0 30px;
+ letter-spacing: 10px;
+}
+.all-one .left h4,
+.all-two .left h4 {
+    font-size: 28px;
+    color: #979797;
+    font-weight: normal;
+}
+.all-one .left h3,
+.all-two .left h3{
+    color: #eb3939;
+    font-size: 28px;
+    margin: 80px 0 30px;
+}
+.all-one .left h3 span
+.all-two .left h3 span {
+    font-size: 32px;
+}
+/* product结束 */
+/* drink开始 */
+.drink{
+    background-color: #faf3f3;
+    height: 939px;
+}
+.dri-head{
+    display: flex;
+    align-items: center;
+     flex-direction: column;
+     padding: 100px 0;
+}
+.dri-head h2{
+    font-size: 48px;
+    
+}
+.dri-head p{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 30px 0 50px;
+}
+.dri-head h3{
+    font-size: 24px;
+    letter-spacing:30px;
+
+}
+.dri-foot {
+    display: flex;
+}
+.dri-foot .all {
+    position: relative;
+    width: 300px;
+    margin-left: 30px;
+}
+.dri-foot .all h3{
+    font-size: 30px;
+    margin: 20px 0 15px;
+}
+.dri-foot .all p{
+    color: #bdbcbc;
+    font-size: 18px; 
+}
+.dri-foot .all h4{
+    color: #eb3939;
+    font-size: 24px;
+    margin: 30px 0;
+    font-weight: normal;
+}
+.dri-foot .all h4 span{
+    font-size: 32px;
+}
+.dri-foot .all a {
+    position:absolute;
+    bottom: -5px;
+    right: 0;
+}
+/* drink结束 */
+/* box开始 */
+.box-head{
+    display: flex;
+    align-items: center;
+     flex-direction: column;
+     padding: 100px 0;
+}
+.box-head h2{
+    font-size: 48px;
+}
+.box-head p{
+    font-weight: bold;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 30px 0 50px;
+}
+
+
+.box-head h3{
+    font-size: 24px;
+    letter-spacing:30px;
+
+}
+ .box-foot{
+    display: flex;
+    justify-content: space-around;
+} 
+
+ 
+.one-one {
+    position: relative;
+    
+}
+.one-one .one-{
+    position: absolute;
+    top: 400px;
+}
+.one-one .one- h3{
+    font-size: 32px;
+}
+.one-one .one- h4{
+    font-size: 28px;
+    color: #979797;
+    margin: 30px 0;
+
+}
+.one-one .one- p{
+    font-size: 24px;
+    color: #dd391f;
+    font-weight: normal;
+}
+.one-one .one- p span{
+    font-size: 32px;
+}
+
+/* box结束 */
+/* cheese开始 */
+.choose{
+    background-color: #faf3f3;
+    height: 650px;
+}
+.choose-head{
+    display: flex;
+    align-items: center;
+     flex-direction: column;
+}
+.choose-head h2{
+    font-size: 45px;
+    margin-top: 70px;
+}
+.choose-head p{
+    font-size: 16px;
+    font-weight: bold;
+   margin: 30px 200px;
+}
+.choose-all{
+    display: flex;
+    justify-content: space-around;
+}
+.choose-allo{
+    position: relative;
+}
+.choose-allo h3{
+    font-size: 28px;
+    margin-top: 10px;
+}
+.choose-allo h4{
+    font-size: 18px;
+    color: #979797;
+    margin: 10px 0 30px;
+}
+.choose-allo p{
+    font-size:18px ;
+    color: #dd391f;
+   
+
+}
+.choose-allo p span{
+    font-size: 32px;
+   
+}
+.choose-allo a{
+    position:absolute;
+    bottom:-1px;
+    right: 0;
+}
+/* cheese结束 */
+
+/* cookies开始 */
+.cookies-head{
+    display: flex;
+    align-items: center;
+     flex-direction: column;
+}
+.cookies-head h2{
+    font-size: 45px;
+    margin-top: 70px;
+}
+.cookies-head p{
+    font-size: 16px;
+    font-weight: bold;
+   margin: 30px 200px;
+}
+.cookies-all{
+    display: flex;
+    justify-content: space-around;
+}
+.cookies-allo{
+    position: relative;
+    margin-bottom: 100px;
+}
+.cookies-allo h3{
+    font-size: 28px;
+    margin-top: 10px;
+}
+.cookies-allo h4{
+    font-size: 18px;
+    color: #979797;
+    margin: 10px 0 30px;
+}
+.cookies-allo p{
+    font-size:18px ;
+    color: #dd391f;
+    
+
+}
+.cookies-allo p span{
+    font-size: 32px;
+   
+}
+.cookies-allo a{
+    position:absolute;
+    bottom:-1px;
+    right: 0;
+}
+/* cookies结束 */
+/* 吐司开始 */
+.toast{
+    background-color: #faf3f3;
+    height: 650px;
+    margin-bottom: 100px;
+}
+.toast-head{
+    display: flex;
+    align-items: center;
+     flex-direction: column;
+}
+.toast-head h2{
+    font-size: 45px;
+    margin-top: 70px;
+}
+.toast-head p{
+    font-size: 16px;
+    font-weight: bold;
+   margin: 30px 200px;
+}
+.toast-all{
+    display: flex;
+    justify-content: space-around;
+}
+.toast-allo{
+    position: relative;
+}
+.toast-allo h3{
+    font-size: 28px;
+    margin-top: 10px;
+}
+.toast-allo h4{
+    font-size: 18px;
+    color: #979797;
+    margin: 10px 0 30px;
+}
+.toast-allo p{
+    font-size:18px ;
+    color: #dd391f;
+    
+
+}
+.toast-allo p span{
+    font-size: 32px;
+   
+}
+.toast-allo a{
+    position:absolute;
+    bottom:-1px;
+    right: 0;
+}
+/* 吐司结束 */
+/* cake开始 */
+.cakes-head{
+    display: flex;
+    align-items: center;
+     flex-direction: column;
+}
+.cakes-head h2{
+    font-size: 45px;
+    margin-top: 70px;
+}
+.cakes-head p{
+    font-size: 16px;
+    font-weight: bold;
+   margin: 30px 200px;
+}
+.cakes-all{
+    display: flex;
+    justify-content: space-around;
+}
+.cakes-allo{
+    position: relative;
+    margin-bottom: 100px;
+
+}
+.cakes-allo h3{
+    font-size: 28px;
+    margin-top: 10px;
+}
+.cakes-allo h4{
+    font-size: 18px;
+    color: #979797;
+    margin: 10px 0 30px;
+}
+.cakes-allo p{
+    font-size:18px ;
+    color: #dd391f;
+    
+
+}
+.cakes-allo p span{
+    font-size: 32px;
+   
+}
+.cakes-allo a{
+    position:absolute;
+    bottom:-1px;
+    right: 0;
+}
+/* cake结束 */
+/* drink开始 */
+.drinks{
+    background-color: #faf3f3;
+    height: 650px;
+    margin-bottom: 100px;
+}
+.drink-head{
+    display: flex;
+    align-items: center;
+     flex-direction: column;
+}
+.drink-head h2{
+    font-size: 45px;
+    margin-top: 70px;
+}
+.drink-head p{
+    font-size: 16px;
+    font-weight: bold;
+   margin: 30px 200px;
+}
+.drinks-all{
+    display: flex;
+    justify-content: space-around;
+}
+.drink-allo{
+    position: relative;
+}
+.drinks-allo h3{
+    font-size: 28px;
+    margin-top: 10px;
+}
+.drink-allo h4{
+    font-size: 18px;
+    color: #979797;
+    margin: 10px 0 30px;
+}
+.drink-allo p{
+    font-size:18px ;
+    color: #dd391f;
+   
+
+}
+.drink-allo p span{
+    font-size: 32px;
+   
+}
+.drink-allo a{
+    position:absolute;
+    bottom:-1px;
+    right: 0;
+}
+/* drink结束 */
+/* 乳酪开始 */
+.sand-head{
+    display: flex;
+    align-items: center;
+     flex-direction: column;
+}
+.sand-head h2{
+    font-size: 45px;
+    margin-top: 50px;
+}
+.sand-head p{
+    font-size: 16px;
+    font-weight: bold;
+   margin: 30px 200px;
+}
+.sand-all{
+    display: flex;
+    justify-content: space-around;
+}
+.sand-allo{
+    position: relative;
+    margin-bottom: 100px;
+
+}
+.sand-allo h3{
+    font-size: 28px;
+    margin-top: 10px;
+}
+.sand-allo h4{
+    font-size: 18px;
+    color: #979797;
+    margin: 10px 0 30px;
+}
+.sand-allo p{
+    font-size:18px ;
+    color: #dd391f;
+    
+
+}
+.sand-allo p span{
+    font-size: 32px;
+   
+}
+.sand-allo a{
+    position:absolute;
+    bottom:-1px;
+    right: 0;
+}
+/* 乳酪结束 */
+/* 礼物开始 */
+.gift{
+    background-color: #faf3f3;
+    height: 650px;
+    /* margin-bottom: 100px; */
+}
+.gift-head{
+    display: flex;
+    align-items: center;
+     flex-direction: column;
+}
+.gift-head h2{
+    font-size: 45px;
+    margin-top: 70px;
+}
+.drink-head p{
+    font-size: 16px;
+    font-weight: bold;
+   margin: 30px 200px;
+}
+.gift-all{
+    display: flex;
+    justify-content: space-around;
+}
+.gift-allo{
+    position: relative;
+}
+.gift-allo h3{
+    font-size: 28px;
+    margin-top: 10px;
+}
+.gift-allo h4{
+    font-size: 18px;
+    color: #979797;
+    margin: 10px 0 30px;
+}
+.gift-allo p{
+    font-size:18px ;
+    color: #dd391f;
+  
+
+}
+.gift-allo p span{
+    font-size: 32px;
+   
+}
+.gift-allo a{
+    position:absolute;
+    bottom:-1px;
+    right: 0;
+}
+/* 礼物结束 */
+/* 购物须知开始 */
+.go-shop {
+    position: relative;
+    width: 1920px;
+    left: 50%;
+    margin-left: -960px;
+}
+/* 购物须知结束 */

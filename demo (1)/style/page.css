@@ -1,0 +1,100 @@
+.page{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+.page-rght h3 {
+    font-size: 16px;
+}
+.page-rght > p {
+    color: rgb(207, 61, 39);
+    margin: 10px 0;
+}
+.page-top {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background-color: #eee;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.price {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.page-top span:first-of-type {
+    font-size: 24px;
+    color: rgb(207, 61, 39);
+    display: block;
+}
+.page-top span:last-of-type {
+    color: rgb(207, 61, 39);
+}
+.page-cen1 {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding-left: 10px;
+}
+.region {
+    margin-left: 50px;
+}
+.page-cen2 {
+    display: flex;
+    justify-content:space-around;
+    border-top: 1px solid #ccc;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.page-cen2 p:nth-child(2){
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 0 20px ;
+}
+.page-cen2 p span {
+    color: rgb(207, 61, 39);
+}
+.page-bot {
+    display: flex;
+    margin: 20px 0;
+    padding-left: 10px;
+}
+.page-bot ul {
+    margin-left: 50px;
+}
+.page-bot ul li {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+}
+.shop {
+    padding-left: 90px;
+    margin-bottom: 40px;
+}
+.shop a {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color:rgb(207, 61, 39);
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.shop a:last-child {
+    margin-left: 10px;
+}
+.look {
+    text-align: center;
+    margin-bottom: 20px;
+    border-left: 1px solid #ccc;
+    padding-left: 30px;
+    color: #555;
+}
+.look img  {
+    width: 150px;
+}

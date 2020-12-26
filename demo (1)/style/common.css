@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font:normal 14px/24px Arial;
+    background-color: #fafafa;
+
+}
+li{
+    list-style: none;
+}
+.center{
+    width:1276px ;
+    margin: 0 auto;
+}
+input,button {
+    outline: none;
+    border: 0;
+}
+/* header开始 */
+.nav-top {
+    background-color: #e8e8e8;
+    height: 50px;
+}
+.nav-top .center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .nav-top ul {
+    display: flex;
+}
+header .nav-top ul li > a {
+    display: block;
+    padding: 0 30px;
+    line-height: 50px;
+}
+header .nav-top ul li {
+    position: relative;
+}
+header .nav-top .center ul li .box{
+    position: absolute;
+    top: 50px;
+    display: block;
+    width: 150px;
+    padding-left: 30px;
+    background-color: #fff;
+    display: none;
+    border: 1px solid #eee;
+    border-top: 0;
+    z-index: 999;
+}
+header .nav-top .center ul li:last-child .box {
+    position: absolute;
+    right: 1080px;
+
+}
+header .nav-top .center ul li:hover > a {
+    background-color:#fff;
+}
+header .nav-top .center ul li:hover .box {
+    display: block;
+}
+header .nav-top .center ul li .box a {
+    display: block;
+    padding-bottom: 5px;
+}
+header .nav-top .center ul li .box a:hover {
+    text-decoration: underline;
+}
+.nav-top .center p a {
+    padding-left: 15px;
+}
+.nav-top .center p a:hover,
+header .nav-top ul li a:hover {
+    color: #be3722;
+}
+ header .center .head{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.head .search {
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+}
+.head .seach-fl {
+    display: flex;
+}
+.head .seach-fl input{
+    width: 465px;
+    height: 40px;
+    border: 2px solid #dd391f; 
+}
+.head .seach-fl button,
+.head .search a  {
+    width: 90px;
+    height: 40px;
+    background-color:#dd391f;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+.head .search a {
+  background-color: #333;
+}
+ .head-cont{                       
+    display: flex;
+    height: 200px;
+    justify-content:space-around;
+    align-items: center;
+}
+.hr {
+    position: absolute;
+    top: 140px;
+    height: 140px;
+    border-top: 1px solid #979797;
+    border-bottom: 1px solid #979797;
+    z-index: 1;
+    width: 100%;
+}
+ .head-cont p{
+    font-size: 26px;
+    font-weight: bold;
+}
+.head-cont a {
+    text-align: center;
+    line-height: 30px;
+    width: 116px;
+    height: 30px;
+    background-color: #eb3939;
+    border-radius: 15px;
+    color: #fff;
+    position: relative;
+    z-index: 9999999;  
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    margin-top: -20px;
+    align-items: center;
+}
+.nav ul li a {
+    display: block;
+    padding: 0 20px;
+}
+.nav ul li a:hover{
+     font-weight: bold;
+     
+}
+/* header结束 */
+/* footer开始 */
+.footer {
+    padding-left: 130px;
+    position: relative;
+}
+.footer a{
+        position: absolute;
+        right: 0;
+        bottom: -1px;
+}
+/* footer结束 */
